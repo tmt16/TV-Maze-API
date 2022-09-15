@@ -119,7 +119,7 @@ $searchForm.on("submit", async function searchShows(event) {
  */
 
 async function getEpisodesOfShow(id) {
-  let res = await axios.get(`http://api.tvmaze.com/shows/${id}/episodes`);
+  let res = await axios.get(`https://api.tvmaze.com/shows/${id}/episodes`);
 
   let episodes = res.data.map(episode => ({
     id: episode.id,
