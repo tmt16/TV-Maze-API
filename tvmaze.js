@@ -87,7 +87,7 @@ function populateShows(shows) {
            <div class="media-body">
              <h5 class="text-primary">${show.name}</h5>
              <div><small>${show.summary}</small></div>
-             <button type="button" id="episodes-button" class="btn btn-primary Show-getEpisodes">See Episodes</button>
+             <button type="button" id="episodes-button" class="btn btn-primary Show-getEpisodes">See Episodes Below</button>
            </div>
          </div>  
        </div>
